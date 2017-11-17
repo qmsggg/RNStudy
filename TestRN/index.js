@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import FixedDimensBasics from './study/WidthHeight'
+import AlignItemsBasics from './study/AlignItemsBasics'
 
-AppRegistry.registerComponent('TestRN', () => FixedDimensBasics);
+AppRegistry.registerComponent('TestRN', () => AlignItemsBasics);
