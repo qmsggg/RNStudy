@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import Pizzatranslator from './study/PizzaTranslator'
+import LoginDemo from './study/LoginDemo'
 
-AppRegistry.registerComponent('TestRN', () => Pizzatranslator);
+AppRegistry.registerComponent('TestRN', () => LoginDemo);
