@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import AlignItemsBasics from './study/AlignItemsBasics'
+import Pizzatranslator from './study/PizzaTranslator'
 
-AppRegistry.registerComponent('TestRN', () => AlignItemsBasics);
+AppRegistry.registerComponent('TestRN', () => Pizzatranslator);
