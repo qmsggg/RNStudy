@@ -4,10 +4,13 @@ import { View } from 'react-native';
 export default class FixedDimensBasics extends Component<{}> {
     render() {
         return (
-            <View>
-                <View style={{width:50, height:40, backgroundColor: 'powderblue'}}></View>
-                <View style={{width:100, height:100, backgroundColor: 'skyblue'}}></View>
-                <View style={{width:150, height:150, backgroundColor: 'steelblue'}}></View>            
+            // 试试去掉父View中的`flex: 1`。
+            // 则父View不再具有尺寸，因此子组件也无法再撑开。
+            // 然后再用`height: 300`来代替父View的`flex: 1`试试看？
+            <View style={{ height:300 }}>
+                <View style={{flex: 1, backgroundColor: 'powderblue'}}></View>
+                <View style={{flex: 2, backgroundColor: 'skyblue'}}></View>
+                <View style={{flex: 3, backgroundColor: 'steelblue'}}></View>            
             </View>
         );
     }
