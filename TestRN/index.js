@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import BlinkApp from './TestState'
+import LotsOfStyles from './study/MyStyleSheet'
 
-AppRegistry.registerComponent('TestRN', () => BlinkApp);
+AppRegistry.registerComponent('TestRN', () => LotsOfStyles);
