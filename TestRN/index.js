@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import LoginDemo from './study/LoginDemo'
+import FlatListBasics from './study/MyFlatListDemo'
 
-AppRegistry.registerComponent('TestRN', () => LoginDemo);
+AppRegistry.registerComponent('TestRN', () => FlatListBasics);
