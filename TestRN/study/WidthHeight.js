@@ -8,7 +8,7 @@ export default class FixedDimensBasics extends Component<{}> {
       // 尝试把`flexDirection`改为`row`看看
       <View style={{
         flex: 1,
-        flexDirection: 'column',
+        flexDirection: 'row',
         justifyContent: 'space-between',
       }}>
         <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
