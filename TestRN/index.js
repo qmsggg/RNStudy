@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import LotsOfStyles from './study/MyStyleSheet'
+import FixedDimensBasics from './study/WidthHeight'
 
-AppRegistry.registerComponent('TestRN', () => LotsOfStyles);
+AppRegistry.registerComponent('TestRN', () => FixedDimensBasics);
