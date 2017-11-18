@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import FlatListBasics from './study/MyFlatListDemo'
+import SectionListBasics from './study/SectionListBasics'
 
-AppRegistry.registerComponent('TestRN', () => FlatListBasics);
+AppRegistry.registerComponent('TestRN', () => SectionListBasics);
